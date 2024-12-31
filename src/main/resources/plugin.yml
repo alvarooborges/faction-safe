@@ -1,0 +1,4 @@
+name: ${project.name}
+main: net.hyze.safe.SafePlugin
+version: ${git.commit.id.describe-short}
+depend: [Core-Spigot]

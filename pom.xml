@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.hyze</groupId>
+        <artifactId>parent</artifactId>
+        <version>0.1</version>
+    </parent>
+
+    <artifactId>safe</artifactId>
+    <groupId>net.hyze</groupId>
+    <packaging>jar</packaging>
+
+    <name>Safe</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>ashcon-snapshots</id>
+            <url>https://repo.ashcon.app/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!--Spigot -->
+        <dependency>
+            <groupId>app.ashcon</groupId>
+            <artifactId>sportpaper-api</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>app.ashcon</groupId>
+            <artifactId>sportpaper</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Core Shared-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>core-shared</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Core Spigot-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>core-spigot</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--Core Spigot-->
+        <dependency>
+            <groupId>net.hyze</groupId>
+            <artifactId>economy</artifactId>
+            <version>0.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
